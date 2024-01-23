@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/back"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputTxt"
+        android:hint="Enter the link or text !"
+        android:textColorHint="#162C9E"
+        android:padding="15dp"/>
+
+    <Button
+        android:id="@+id/btnGenerator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#317577"
+        android:layout_gravity="center_horizontal"
+        android:text="Generate " />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/qrImage"
+        android:scaleType="fitCenter"/>
+
+
+
+</LinearLayout>
